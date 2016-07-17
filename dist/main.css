@@ -26,27 +26,8 @@
       padding: 0 10px; }
     .main .img-container .header {
       font-size: 15px; }
-  .main .toggle-list {
-    margin: 0px;
-    padding: 0px; }
-    .main .toggle-list .active {
-      background-color: #DBEEEC; }
-    .main .toggle-list .toggle-item {
-      border-right: 1px solid #DFE9EA;
-      padding: 20px;
-      margin: 0px;
-      width: 25%;
-      float: left;
-      list-style: none;
-      background-color: #EEF8F9;
-      color: #86B8AB; }
-      .main .toggle-list .toggle-item .header {
-        margin: 0px;
-        font-size: 1.4em; }
-      .main .toggle-list .toggle-item .desc {
-        margin: 0px; }
-    .main .toggle-list .toggle-item:last-child {
-      border-right: 1px solid #EEF8F9; }
+  .main .toggle-list .active {
+    background-color: #D5EBE9; }
   .main .midbox {
     margin: 15px 0;
     border-top: 1px dotted #EFEFEF;
@@ -73,12 +54,9 @@
       border: 1px solid #ccc;
       background: transparent; }
   .main .detail-list {
-    padding: 0px;
     margin-bottom: 50px; }
     .main .detail-list .detail-item {
       padding: 10px 0px 10px 15px;
-      float: left;
-      list-style: none;
       width: 25%; }
       .main .detail-list .detail-item .item-img {
         width: 100%;
@@ -122,23 +100,39 @@
       display: inline-block;
       font-size: 0.8em; }
 
+.toggle-list {
+  margin: 0px; }
+  .toggle-list .toggle-item {
+    border-right: 1px solid #DFE9EA;
+    padding: 15px;
+    margin: 0px;
+    width: 25%;
+    background-color: #EEF8F9;
+    color: #86B8AB; }
+    .toggle-list .toggle-item .header {
+      margin: 0px;
+      font-size: 1.4em; }
+    .toggle-list .toggle-item .desc {
+      margin: 0px; }
+  .toggle-list .toggle-item:last-child {
+    border-right: 1px solid #EEF8F9; }
+
 .footer {
   position: relative;
   padding-top: 5px;
   border-top: 1px solid #9C9C9C; }
   .footer .link-list {
-    padding: 0px;
     margin: 5px 0px; }
     .footer .link-list .link-item {
-      padding-right: 5px;
-      border-right: 1px solid #9C9C9C;
-      list-style: none;
-      display: inline-block; }
+      padding: 0px 10px;
+      border-right: 1px solid #9C9C9C; }
       .footer .link-list .link-item .link {
         text-decoration: none;
         color: #86B8AB; }
       .footer .link-list .link-item:last-child {
         border-right: 0px solid #9C9C9C; }
+      .footer .link-list .link-item:first-child {
+        padding-left: 0px; }
   .footer .copyright {
     margin: 0px; }
   .footer .icon-group {
@@ -194,3 +188,9 @@
   border-radius: 5px;
   border: 1px solid #ccc;
   background: transparent; }
+
+.hor-list {
+  padding: 0px; }
+  .hor-list .hor-list-item {
+    list-style: none;
+    float: left; }
